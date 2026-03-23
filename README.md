@@ -6,9 +6,10 @@ I walk into environments with no documentation, no CI/CD, and no observability, 
 
 ## What I'm Working On
 
-- 🔒 **Container Hardening Lab** — Security hardening for containerized environments
-- 🏗️ **IaC Lab** — Infrastructure as Code patterns and modules
-- 🤖 **Roger** — A Discord bot I originally built for a mobile game guild, eventually getting a containerized rewrite
+Building out a collection of hands-on labs and templates focused on secure, production-grade infrastructure.
+
+- 🔒 [container-hardening-lab](https://github.com/R055LE/container-hardening-lab) — Security hardening for containerized environments
+- 🏗️ [https://github.com/R055LE/iac-security-lab](https://github.com/R055LE/iac-security-lab) — Infrastructure as Code patterns and modules
 
 ## Toolkit
 
