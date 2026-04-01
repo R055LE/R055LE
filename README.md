@@ -6,10 +6,15 @@ I walk into environments with no documentation, no CI/CD, and no observability, 
 
 ## What I'm Working On
 
-Building out a collection of hands-on labs and templates focused on secure, production-grade infrastructure.
+Hands-on labs and templates for secure, production-grade infrastructure.
 
-- 🔒 [Container Hardening Lab](https://github.com/R055LE/container-hardening-lab) — Security hardening for containerized environments
-- 🏗️ [IaC Security Lab](https://github.com/R055LE/iac-security-lab) — Infrastructure as Code patterns and modules
+- 🔒 [Container Hardening Lab](https://github.com/R055LE/container-hardening-lab) — CIS/Iron Bank-aligned container hardening — non-root builds, OPA/Kyverno policy enforcement, Cosign signing, SBOM generation, and Falco runtime detection
+- 🏗️ [IaC Security Lab](https://github.com/R055LE/iac-security-lab) — Policy-as-code for Terraform — tfsec, Trivy, and OPA/Rego static analysis against CIS AWS Foundations Benchmark; no cloud credentials required
+- ☸️ [K8s Bootstrap Lab](https://github.com/R055LE/k8s-bootstrap-lab) — Production-grade Kubernetes platform bootstrap: GitOps, observability, and runtime security from Kind to EKS
+
+## Outside the Stack
+
+- 👾 [Horror Battler](https://github.com/R055LE/horror-battler) — Dark auto-battler demo; cursed creatures, grotesque synergies, watch them murder each other
 
 ## Toolkit
 
