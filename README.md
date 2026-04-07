@@ -13,6 +13,22 @@ Hands-on labs and templates for secure, production-grade infrastructure.
 - ☸️ [K8s Bootstrap Lab](https://github.com/R055LE/k8s-bootstrap-lab) — Production-grade Kubernetes platform bootstrap: GitOps, observability, and runtime security from Kind to EKS
 - 🤖 [MLOps Pipeline Lab](https://github.com/R055LE/mlops-pipeline-lab) — Production-grade MLOps deployment pipeline: container hardening, CI/CD, GitOps, observability, and Kyverno policy enforcement around a HuggingFace model
 
+## How They Connect
+
+```
+IaC Security Lab                Container Hardening Lab
+  Terraform policies              Dockerfile policies, Cosign signing,
+  CIS AWS Benchmark               SBOM generation, Falco runtime
+        │                                   │
+        ▼                                   ▼
+K8s Bootstrap Lab ◄──────────── MLOps Pipeline Lab
+  Kind / EKS platform              HuggingFace model serving
+  GitOps, observability,           CI/CD, GitOps, Kyverno
+  runtime security                 policy enforcement
+```
+
+The labs are designed to be read together. IaC Security hardens the infrastructure layer. Container Hardening secures the runtime. K8s Bootstrap provisions the platform. MLOps Pipeline deploys a real workload on top of it — with the same hardening, scanning, and policy patterns applied end to end.
+
 ## Outside the Stack
 
 - 👾 [Horror Battler](https://github.com/R055LE/horror-battler) — Dark auto-battler demo; cursed creatures, grotesque synergies, watch them murder each other
