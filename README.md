@@ -11,6 +11,7 @@ Hands-on labs and templates for secure, production-grade infrastructure.
 - 🔒 [Container Hardening Lab](https://github.com/R055LE/container-hardening-lab) — CIS/Iron Bank-aligned container hardening — non-root builds, OPA/Kyverno policy enforcement, Cosign signing, SBOM generation, and Falco runtime detection
 - 🏗️ [IaC Security Lab](https://github.com/R055LE/iac-security-lab) — Policy-as-code for Terraform — tfsec, Trivy, and OPA/Rego static analysis against CIS AWS Foundations Benchmark; no cloud credentials required
 - ☸️ [K8s Bootstrap Lab](https://github.com/R055LE/k8s-bootstrap-lab) — Production-grade Kubernetes platform bootstrap: GitOps, observability, and runtime security from Kind to EKS
+- 🤖 [MLOps Pipeline Lab](https://github.com/R055LE/mlops-pipeline-lab) — Production-grade MLOps deployment pipeline: container hardening, CI/CD, GitOps, observability, and Kyverno policy enforcement around a HuggingFace model
 
 ## Outside the Stack
 
