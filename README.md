@@ -36,9 +36,14 @@ Go Deploy Lab ─────────────►  SRE Observability Lab
 
 The labs are designed to be read together. IaC Security hardens the infrastructure layer. Container Hardening secures the runtime. K8s Bootstrap provisions the platform. MLOps Pipeline deploys a real workload on top of it. Go Deploy Lab takes a Go application through the full deployment lifecycle. SRE Observability Lab builds on those patterns to demonstrate actually operating services — SLO definitions, multi-window burn-rate alerting, chaos scenarios, and runbooks.
 
+## In Progress
+
+- 🧠 [Agentic Platform Lab](https://github.com/R055LE/agentic-platform-lab) — An on-call first-responder agent workload running on tenant-controlled, security-hardened Kubernetes. Charter, workload spec, and Phase 1 runtime evaluation are in; the platform build is next. Treats "safe by default" as a first-class scoring axis, not a footnote.
+
 ## Outside the Stack
 
 - 👾 [Horror Battler](https://github.com/R055LE/horror-battler) — Dark auto-battler demo; cursed creatures, grotesque synergies, watch them murder each other
+- 🌊 [Harbor Lights](https://github.com/R055LE/harbor-lights) — Cozy-cosmic-horror signal-station prototype; Vite/React creative exploration
 
 ## Toolkit
 
