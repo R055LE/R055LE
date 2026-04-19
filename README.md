@@ -44,6 +44,7 @@ The labs are designed to be read together. IaC Security hardens the infrastructu
 
 - 👾 [Horror Battler](https://github.com/R055LE/horror-battler) — Dark auto-battler demo; cursed creatures, grotesque synergies, watch them murder each other
 - 🌊 [Harbor Lights](https://github.com/R055LE/harbor-lights) — Cozy-cosmic-horror signal-station prototype; Vite/React creative exploration
+- 📖 [Cosmic Horror Atlas](https://github.com/R055LE/cosmic-horror-atlas) — Curated craft-analysis corpus for cosmic horror; atomic concepts, author indexes, and transferable craft moves. Reference for readers, retrievable knowledge base for downstream creative work
 
 ## Toolkit
 
