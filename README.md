@@ -4,41 +4,18 @@ Sr. DevSecOps Engineer | 13 years in IT | Biochemistry degree I've never used fo
 
 I walk into environments with no documentation, no CI/CD, and no observability, and I leave behind infrastructure that actually works. Federal/DoD compliance, Iron Bank containers, Platform One deployments, and the less glamorous stuff — migrating legacy systems between clouds without losing data and untangling years of manual deployment processes.
 
+## Structured Lab Series
+
+The hardening/platform lab series has grown into its own org — [HalcyonOps](https://github.com/HalcyonOps): container hardening, IaC security, K8s bootstrap, MLOps, Go deploy, SRE observability, an in-progress agentic platform lab, and a secure Terraform module baseline, designed to be read together.
+
 ## What I'm Working On
 
-Hands-on labs and templates for secure, production-grade infrastructure.
-
-- 🔒 [Container Hardening Lab](https://github.com/R055LE/container-hardening-lab) — CIS/Iron Bank-aligned container hardening — non-root builds, OPA/Kyverno policy enforcement, Cosign signing, SBOM generation, and Falco runtime detection
-- 🏗️ [IaC Security Lab](https://github.com/R055LE/iac-security-lab) — Six hardened Terraform modules (S3, IAM, VPC, CloudTrail, RDS, EKS) with CIS AWS Foundations Benchmark mappings; tfsec, Trivy, and OPA/Rego enforcement with an `examples/insecure` failure demo that validates the pipeline itself. No cloud credentials required
-- ☸️ [K8s Bootstrap Lab](https://github.com/R055LE/k8s-bootstrap-lab) — Production-grade Kubernetes platform bootstrap: GitOps, observability, and runtime security from Kind to EKS
-- 🤖 [MLOps Pipeline Lab](https://github.com/R055LE/mlops-pipeline-lab) — Production-grade MLOps deployment pipeline: container hardening, CI/CD, GitOps, observability, and Kyverno policy enforcement around a HuggingFace model
-- 🚀 [Go Deploy Lab](https://github.com/R055LE/go-deploy-lab) — Go application through the full deployment lifecycle: multi-stage distroless builds, Kubernetes manifests, rolling updates, Kyverno policies, Prometheus metrics, Grafana dashboards, CI with Trivy + SBOM
-- 📟 [SRE Observability Lab](https://github.com/R055LE/sre-observability-lab) — SLO-based alerting, error budget burn-rate math, chaos engineering with documented outcomes, runbooks linked from alerts, request ID correlation across services, promtool-tested alert rules
-
-## How They Connect
-
-```
-IaC Security Lab                Container Hardening Lab
-  Terraform policies              Dockerfile policies, Cosign signing,
-  CIS AWS Benchmark               SBOM generation, Falco runtime
-        │                                   │
-        ▼                                   ▼
-K8s Bootstrap Lab ◄──────────── MLOps Pipeline Lab
-  Kind / EKS platform              HuggingFace model serving
-  GitOps, observability,           CI/CD, GitOps, Kyverno
-  runtime security                 policy enforcement
-        ▲                                   
-        │                                   
-Go Deploy Lab ─────────────►  SRE Observability Lab
-  Go app, deployment lifecycle      SLOs, burn-rate alerts,
-  distroless, Kyverno, CI           chaos engineering, runbooks
-```
-
-The labs are designed to be read together. IaC Security hardens the infrastructure layer. Container Hardening secures the runtime. K8s Bootstrap provisions the platform. MLOps Pipeline deploys a real workload on top of it. Go Deploy Lab takes a Go application through the full deployment lifecycle. SRE Observability Lab builds on those patterns to demonstrate actually operating services — SLO definitions, multi-window burn-rate alerting, chaos scenarios, and runbooks.
-
-## In Progress
-
-- 🧠 [Agentic Platform Lab](https://github.com/R055LE/agentic-platform-lab) — An on-call first-responder agent workload running on tenant-controlled, security-hardened Kubernetes. Charter, workload spec, and Phase 1 runtime evaluation are in; the platform build is next. Treats "safe by default" as a first-class scoring axis, not a footnote.
+- 🔐 [secrets-broker](https://github.com/R055LE/secrets-broker) — A custody broker between AI coding agents and Bitwarden Secrets Manager — the agent asks, a human's desktop decides, the vault never talks to the agent directly
+- 📦 [runtime-images](https://github.com/R055LE/runtime-images) — Minimal signed language runtime images with owned rebuild timing, SBOMs, provenance, and vulnerability gates
+- 🤖 [roger](https://github.com/R055LE/roger) — A Discord chat bot on OpenRouter, and the spiritual successor to my first-ever programming project
+- 🔭 [scout](https://github.com/R055LE/scout) — Deterministic discovery digest: scores public feeds against an explicit watchlist and says why each item matched
+- 🏠 [hearth](https://github.com/R055LE/hearth) — Self-hosted home information tracker: floorplans, electrical circuits, and (later) maintenance and vendor records
+- 📱 [threadline](https://github.com/R055LE/threadline) — An exploratory transcript-first SSH client for Android
 
 ## Writing
 
@@ -52,6 +29,6 @@ The labs are designed to be read together. IaC Security hardens the infrastructu
 
 ## Toolkit
 
-`Kubernetes` `Terraform` `Docker` `Helm` `ArgoCD` `Ansible` `GitLab CI/CD` `GitHub Actions` `HashiCorp Vault` `Grafana` `Prometheus` `Loki` `Alertmanager` `AWS` `Azure` `GCP` `Go` `Python` `Bash`
+`Kubernetes` `Terraform` `Docker` `Helm` `ArgoCD` `Ansible` `GitLab CI/CD` `GitHub Actions` `HashiCorp Vault` `Grafana` `Prometheus` `Loki` `Alertmanager` `AWS` `Azure` `GCP` `Go` `Python` `TypeScript` `Kotlin` `Bash` `Discord.py`
 
 ## Detroit, MI
